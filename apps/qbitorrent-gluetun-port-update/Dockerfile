@@ -19,7 +19,7 @@ ENV QBITTORRENT_WEBUI_HOST=127.0.0.1 \
     ERROR_INTERVAL_SEC=5 \
     ERROR_INTERVAL_COUNT=5
 
-COPY port-update.sh /port-update.sh
+COPY ./apps/qbittorrent-gluetun-port-update/port-update.sh /port-update.sh
 
 CMD ["/bin/sh", "/port-update.sh"]
 
