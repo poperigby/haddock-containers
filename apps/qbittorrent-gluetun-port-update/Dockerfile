@@ -22,4 +22,3 @@ ENV QBITTORRENT_WEBUI_HOST=127.0.0.1 \
 COPY ./apps/qbittorrent-gluetun-port-update/port-update.sh /port-update.sh
 
 CMD ["/bin/sh", "/port-update.sh"]
-
