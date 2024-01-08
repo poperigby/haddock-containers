@@ -25,7 +25,7 @@ jobs:
         include:
           - image: caddy
           - image: ddclient
-          - image: qbitorrent-gluetun-port-update
+          - image: qbittorrent-gluetun-port-update
 
     steps:
       - name: Checkout repository
